@@ -35,18 +35,18 @@ package com.mycompany.csc229_assignment01;
 public class Course {
 private int id;
 private String name;
-private int code;
+private String code;
 // defualt constructor which defins deafult values for class data members 
 public Course(){
-    id = 00;
-    name = "N/A";
-    code = 0101;
+     setID(12012);
+    setName("Moaath");
+    setCode("CSC229");
 }
 // parameterized constructor which sets the class data members to the values passed as arguments.
-public Course(int id, String name, int code){
-    this.id = id;
-    this.name = name;
-    this.code = code;
+public Course(int id, String name, String code){
+    setID(id);
+    setName(name);
+    setCode(code);
     
 }
 
@@ -60,7 +60,7 @@ public String getName(){
     return name;
 }
 
-public int getCode(){
+public String getCode(){
     return code;
 }
 
@@ -76,7 +76,7 @@ public void setName(String name){
     
 }
 
-public void setCode(int code){
+public void setCode(String code){
    this.code = code;
 }
 }
