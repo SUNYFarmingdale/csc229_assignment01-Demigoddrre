@@ -36,4 +36,28 @@ public class Course {
 private int id;
 private String name;
 private int code;
+
+public Course(){
+    id = 00;
+    name = "N/A";
+    code = 0101;
+}
+public Course(int id, String name, int code){
+    this.id = id;
+    this.name = name;
+    this.code = code;
+    
+}
+public int getID(){
+    return id;
+
+}
+
+public String getName(){
+    return name;
+}
+
+public int getCode(){
+    return code;
+}
 }
