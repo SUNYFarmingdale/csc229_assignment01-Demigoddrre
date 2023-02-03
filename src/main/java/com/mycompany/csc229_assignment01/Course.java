@@ -38,9 +38,9 @@ private String name;
 private String code;
 // defualt constructor which defins deafult values for class data members 
 public Course(){
-     setID(12012);
-    setName("Moaath");
-    setCode("CSC229");
+     setID(00);
+    setName("Demi");
+    setCode("101");
 }
 // parameterized constructor which sets the class data members to the values passed as arguments.
 public Course(int id, String name, String code){
