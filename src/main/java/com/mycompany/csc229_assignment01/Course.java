@@ -33,5 +33,7 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
-
+private int id;
+private String name;
+private int code;
 }
