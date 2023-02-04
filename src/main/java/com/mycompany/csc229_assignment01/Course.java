@@ -36,7 +36,7 @@ public class Course {
 private int id;
 private String name;
 private String code;
-// defualt constructor which defins deafult values for class data members 
+// defualt constructor which defines deafault values for class data members 
 public Course(){
      setID(00);
     setName("Demi");
@@ -50,7 +50,7 @@ public Course(int id, String name, String code){
     
 }
 
-// getter method sused to retrieve data
+// getter methods used to retrieve data
 public int getID(){
     return id;
 
@@ -64,7 +64,7 @@ public String getCode(){
     return code;
 }
 
-// setter methods which allow th user to set and update individual data members
+// setter methods which allow the user to set and update individual data members
 
 public void setID(int id){
 
